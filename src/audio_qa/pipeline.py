@@ -28,8 +28,8 @@ class AudioQA:
 			else:
 				text = read_text(text_path)
 
-		# self.file_name = self.rec.record_audio()
-		self.file_name = '../../tests/temp2.wav'
+		self.file_name = self.rec.record_audio()
+		# self.file_name = '../../tests/temp2.wav'
 		self.question = self.stt.inference(temp_path = self.file_name) #"where was the auction held"
 		print(f'Detected Speech: {self.question}')
 		self.answer = self.qa.question_answer(self.question, text)

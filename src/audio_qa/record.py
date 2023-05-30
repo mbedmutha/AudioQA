@@ -9,7 +9,7 @@ class Record:
 	def __init__(self):
 		self.q = queue.Queue()
 		self.sr = 16000
-		self.file_name = "../../tests/temp2.wav"
+		self.file_name = "../../tests/temp.wav"
 		self.voice_detected = False
 		self.threshold = 2e-9
 		self.energy = []

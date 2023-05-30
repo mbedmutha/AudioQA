@@ -54,7 +54,7 @@ class FacebookS2T(STT):
                 print("Cannot sense audio")
                 return
             else:
-                wav_data, fs = librosa.load(r"../../tests/temp2.wav", sr=16000) #C:\Users\manas\Downloads\manas_smartphone_speech.wav")
+                wav_data, fs = librosa.load(r"../../tests/temp.wav", sr=16000) #C:\Users\manas\Downloads\manas_smartphone_speech.wav")
         
         inputs = processor(wav_data, sampling_rate=fs, return_tensors="pt")
         
