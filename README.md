@@ -4,10 +4,12 @@ AudioQA is a pipeline to answer questions based on a known context (user-fed) by
 
 ## Arguments
 |Argument|Info|Notes|
+| ------- |------- | ------- |
 |--help, -h| Help for passing params ||
 |--stt| Chooses stt model. Default silero| Supports silero, facebooks2t|
 |--qa| Chooses model for question answering | Supports MobileBERT |
 
 
 Models: Torch Hub and Transformers/HF
+
 Package Development: https://packaging.python.org/en/latest/tutorials/packaging-projects/
