@@ -1,0 +1,15 @@
+October 25, 2019
+
+Individuals have their own inherent biases. Most are harmless – preferred foods, favorite cars, go-to streaming services. However, biases tied to race, gender, sexual orientation and socioeconomic status have serious consequences.
+
+This is particularly true in medicine. Unintentional, hidden, biases may perpetuate healthcare disparities. While providers are not acting out of malice, these attitudes could have significant impacts on patient care.
+
+To better understand these issues, Nadir Weibel, an associate professor in UC San Diego’s Computer Science and Engineering Department and head of the Human-Centered and Ubiquitous Computing Lab, and collaborators Andrea Hartzler, Wanda Pratt and Janice Sabin at the University of Washington (UW) have received a $2.8 million grant from the National Library of Medicine to launch UnBIASED, a project to study hidden biases in healthcare and develop methods to help rectify them.
+
+“The project seeks to use social signal processing (SSP), a computational approach that detects subtle cues in behavior that are typically invisible,” says Weibel. “For example, talk time, interruptions and body movements from health care providers might differ based on a patient’s race, gender or socioeconomic status.”
+
+The team will use SSP technology to assess hidden biases during medical appointments. SSP analyzes video and audio to make sense of social interactions, such as body language, how long providers and patients talk, how much they interrupt, whether providers are looking at their patients and other clues that could potentially indicate bias. 
+
+Each university brings special expertise to the table. The UW team contributes clinical informatics. Weibel’s lab at UC San Diego’s Jacobs School of Engineering will lead the engineering efforts, creating the SSP model and the UnBIASED tool to delineate possible biases. The UC San Diego group will also contribute the human-centered design in concert with UW and clinicians and patients at UC San Diego and San Diego community clinics.
+
+Graduate student Steven Rick, who helped organize CSE’s Celebration of Diversity, is the lead PhD student on the project. With his background in human-centered interaction, design and biomedical informatics, he will develop SSP models to extract verbal and nonverbal cues from patient/provider interactions. 
