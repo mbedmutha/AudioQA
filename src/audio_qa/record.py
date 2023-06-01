@@ -11,7 +11,7 @@ class Record:
 		self.sr = 16000
 		self.file_name = "../../tests/temp.wav"
 		self.voice_detected = False
-		self.threshold = 2e-9
+		self.threshold = 3e-9
 		self.energy = []
 		print('Init Record')
 
@@ -28,7 +28,7 @@ class Record:
 		with sf.SoundFile(self.file_name, mode='w', samplerate=self.sr, channels=1) as file:
 			with sd.InputStream(samplerate=self.sr, callback=self.callback, channels=1):
 				print('#' * 80)
-				print('press Ctrl+C to stop the recording')
+				print('Started recording')
 				print('#' * 80)
 				while True:
 					data = self.q.get()

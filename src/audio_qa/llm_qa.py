@@ -42,6 +42,7 @@ class MobileBERT(QA):
 		self.output = self.model(torch.tensor([input_ids]), token_type_ids=torch.tensor([segment_ids]))
 
 		#reconstructing the answer
+		self.answer = ""
 		answer_start = torch.argmax(self.output.start_logits)
 		answer_end = torch.argmax(self.output.end_logits)
 		if answer_end >= answer_start:
@@ -52,7 +53,7 @@ class MobileBERT(QA):
 				else:
 					self.answer += " " + tokens[i]
 
-		if self.answer.startswith("[CLS]"):
+		if self.answer.startswith("[CLS]") or self.answer=="":
 			self.answer = "Unable to find the answer to your question."
 
 #         print("\nPredicted answer:\n{}".format(self.answer.capitalize()))
